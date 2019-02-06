@@ -54,4 +54,4 @@ app.get('/ws', function(req, res) {
 
 
 // Listen to the port
-server.listen(port, () => (new Date()) + ' Server is listening on port '+ port);
+server.listen(port, () => 'Listening on port '+ port);
