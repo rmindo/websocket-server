@@ -5,7 +5,7 @@
 	// Check if websocket is supported
 	if(!w.WebSocket) {
 
-		console.log('WebSocket is not supported in your current browser. Please upgrade to latest version.');
+		alert('WebSocket is not supported in your current browser. Please upgrade to latest version.');
 	}
 
 	const ws = new WebSocket('ws://localhost:9000/ws');
